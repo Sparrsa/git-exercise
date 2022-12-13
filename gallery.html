@@ -7,30 +7,36 @@
     <title>Gallery</title>
     <script src="script/main.js"></script>
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/gallery.css" />
   </head>
   <body>
     <header class="page-header">
-      <h1>Hello and welcome to Work</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nemo qui
-        ipsa numquam minus ducimus, quia autem dolor blanditiis exercitationem
-        commodi beatae voluptatem id distinctio a maiores quo assumenda quae.
-        Molestias facilis impedit, earum, exercitationem nobis ex assumenda
-        reprehenderit, libero beatae sint sequi perferendis reiciendis iste
-        laudantium pariatur cupiditate voluptas. Modi, quibusdam quasi possimus
-        earum vitae atque veritatis rerum voluptatibus.
-      </p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Main page</a></li>
-          <li><a href="#">Gallery page</a></li>
+      <nav class="page-nav">
+        <ul class="nav-list">
+          <li class="list-item"><a href="index.html">Main page</a></li>
+          <li class="list-item"><a href="#">Gallery page</a></li>
         </ul>
       </nav>
     </header>
-    <figure>
-      <img src="assets/111.jpg" alt="" />
-      <img src="assets/1_567.avif" alt="" />
-      <img src="assets/half-life_153.jpg" alt="" />
-    </figure>
+    <section>
+      <h2 class="staff-team">Black Mesa staff team</h2>
+      <div class="imgs">
+        <figure class="img-container">
+          <img class="staff-img" src="assets/111.jpg" alt="" />
+          <p class="staff-names">jeryy benny and lenny</p>
+        </figure>
+        <figure class="img-container">
+          <img
+            class="staff-img"
+            src="assets/Half-Life_Blue_Shift_(Dr._Rosenberg).jpg"
+            alt="" />
+          <p class="staff-names">Morgan</p>
+        </figure>
+        <figure class="img-container">
+          <img class="staff-img" src="assets/half-life_153.jpg" alt="" />
+          <p class="staff-names">Perry and officer Hawkins</p>
+        </figure>
+      </div>
+    </section>
   </body>
 </html>
